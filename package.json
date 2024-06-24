@@ -1,9 +1,13 @@
 {
-  "name": "app-name",
+  "name": "counter-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "echo no build step"
+    "dev": "vite app",
+    "build": "vite build app --outDir ../dist --emptyOutDir"
+  },
+  "devDependencies": {
+    "vite": "^5.3.1"
   }
 }
